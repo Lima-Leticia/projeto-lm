@@ -423,8 +423,9 @@ footer{
     }
     .inicio button{
         font-size: 1rem;
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 1rem;
         right: 20%;
+        left:30%;
     }
     .sobre{
         grid-template-columns: repeat(1, 1fr);
@@ -470,6 +471,16 @@ footer{
     .social i{
         width: 5rem;
         align-items: center;
+    }
+    .botao{
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+    .campo label{
+        margin: 20px;
+    }
+    .campo input[type="text"], .campo input[type="email"], .campo input[type="url"], .campo input[type="tel"], .campo select, .campo textarea{
+        margin: 20px;
     }
     footer{
         height: 9rem;
@@ -518,7 +529,7 @@ footer{
     }
     .inicio button{
         font-size: 1.2rem;
-        right: 32%;
+        left:40%;
     }
     .sobre{
         grid-template-rows: repeat(1, 10rem);
