@@ -130,7 +130,7 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    left: 45%;
+    left:41%;
     animation: inicioani 1s forwards;
     opacity: 0;
 }
@@ -423,8 +423,12 @@ footer{
     }
     .inicio button{
         font-size: 1rem;
-        padding: 1.5rem 2rem;
-        right: 20%;
+        padding: 1rem 1.5rem;
+        right: 25%%;
+    }
+    .rbar{
+        right: 24rem;
+        top: 1rem;
     }
     .sobre{
         grid-template-columns: repeat(1, 1fr);
@@ -471,6 +475,12 @@ footer{
         width: 5rem;
         align-items: center;
     }
+    .botao{
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+        left: 33%;
+        position: absolute;
+    }
     footer{
         height: 9rem;
     }
@@ -481,10 +491,10 @@ footer{
     }
     .footer-content p{
         font-size: 1rem;
-        text-align: center;
+        padding: 2rem 1rem;
     }
-    .redes ul {
-        padding:1rem;
+    .redes a {
+        margin: 0 3rem;
     }
 }
 @media all and (min-width:1280px){
@@ -497,7 +507,8 @@ footer{
     }
     .inicio button{
         font-size: 2rem;
-        right: 36%;
+        right: 30%;
+        left: 40%;
     }
     .sobre{
         grid-template-columns: repeat(2, 1fr);
@@ -518,7 +529,11 @@ footer{
     }
     .inicio button{
         font-size: 1.2rem;
-        right: 32%;
+        right: 20%;
+        left: 35%;
+    }
+    .rbar{
+        right: 5rem;
     }
     .sobre{
         grid-template-rows: repeat(1, 10rem);
